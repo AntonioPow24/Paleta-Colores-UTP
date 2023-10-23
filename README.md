@@ -1,8 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Paleta-Colores-UTP
+
+_Paleta-Colores-UTP es una aplicación desarrollada con React para permitir a usuarios obtener el codigo hexadecimal de un color establecido en la app(dentro de una pelta de colores)._
+
+_Puedes ingresar desde este link:_
+
+[https://paleta-colores-utp.vercel.app/](https://paleta-colores-utp.vercel.app/) 
+
+![image](https://github.com/AntonioPow24/Paleta-Colores-UTP/assets/69053361/31e8f180-133a-42b5-8ea9-3c6215ea358c)
+
+_Al hacer clic en un color se puede obtener su código hexadecimal y se podrá observar lo siguiente:_
+![image](https://github.com/AntonioPow24/Paleta-Colores-UTP/assets/69053361/c4bffb6c-300e-425f-8ed2-870d0bbd1e54)
+
+
+_La paleta de colors fue obtenida a través la siguiente API._
+
+[https://regres.in/api/colors](https://reqres.in/api/colors)
+
+<!-- ``` -->
+# Tecnologías Usadas
+_En este proyecto se han utilizado las siguientes tecnologías:_
+
+* [HTML5 y CSS3](https://www.w3.org/) - Como lenguajes de etiquetas y estilos.
+* [React 18](https://react.dev/) - La biblioteca para interfaces de usuario web y nativas.
+* [Javascript](https://www.javascript.com/) - Lenguae de Programación base para este proyecto.
+* [Typescript](https://www.typescriptlang.org/) - Lenguaje de programación  tipado basado en JavaScript, que brinda mejores herramientas a cualquier escala.
+* [Tailwindcss](https://tailwindcss.com/) - Framework para CSS.
+* [NodeJS y npm](https://nodejs.org/) - Manejador de dependencias.
+* [NextJs](https://nextjs.org/) - Framework de JavaScript
+* [Vercel](https://www.heroku.com) - Usado para deployar la aplicación.
 
 ## Getting Started
 
-First, run the development server:
+Iniciar servidor de desarollo:
 
 ```bash
 npm run dev
@@ -14,23 +43,9 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abrir [http://localhost:3000](http://localhost:3000) Con el navegador para observar el proyecto.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Puedes comezar a editar la pagina modificando `app/page.js`. La pagina se actualizará automáticamente mientras se edite el archivo
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Este proyecto uso [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) para optimizar y cargar Inter automaticamente ,una fuente de Google
